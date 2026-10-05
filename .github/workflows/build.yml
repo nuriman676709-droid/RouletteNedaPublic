@@ -22,7 +22,7 @@ jobs:
       - name: Extract game project
         run: |
           mkdir public-project
-          unzip -q RouletteNeda_Public_GooglePlay_shop_flxed.zip -d public-project
+          unzip -q RouletteNeda_Public_GooglePlay_shop_fixed.zip -d public-project
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
